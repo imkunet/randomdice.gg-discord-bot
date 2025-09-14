@@ -86,6 +86,7 @@ const channelIds = {
     '📦 | Archives': '844447322812579870',
     '📦 | Report Archives': '806634775514710106',
     '📦 | Application Archives': '847772255923601468',
+    welcome: '1247220151376416969',
 };
 
 export default channelIds;

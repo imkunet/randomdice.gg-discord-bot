@@ -32,7 +32,7 @@ export default async function welcomeReward(
     const { channel, author, content } = message;
     if (
         !content.toLowerCase().includes('welcome') ||
-        channel.id !== channelIds.general ||
+        channel.id !== channelIds.welcome ||
         !saidWelcomes.length ||
         saidWelcomes.every(set => {
             const saidWelcome = set.has(author);
